@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!--FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/90d985b20a.js" crossorigin="anonymous"></script>
+
+    <!-- Main CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--HEADER DESIGN-->
+    <header class="header"> 
+        <a href="#" class="logo"> Portfolio.</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- HOME SECTION -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+
+            <h3>Hi, Myself</h3>
+            <h1>Harkirat Singh</h1>
+            <h3>And I'am a <span class="multiple-text"> </span> </h3>
+            <p>Welcome to my portfolio! I specialize in creating responsive and user-friendly web experiences that leave a lasting impression.
+            With a passion for clean code and modern design trends, I strive to bring my clients' visions to life through innovative web solutions.</p>
+
+            <!--Social-Icons--> 
+            <div class="social-media">
+                <a href="#"> <i class="fa-brands fa-square-instagram"></i> </a>
+                <a href="#"> <i class="fa-brands fa-twitter">  </i> </a>
+                <a href="#"> <i class="fa-brands fa-facebook"> </i> </a>
+                <a href="#"> <i class="fa-brands fa-linkedin"> </i> </a>
+            </div>
+
+            <a href="cv/Harkirat Singh-Resume.pdf" class="btn" download> Download CV</a>         
+        </div>
+
+        <!--Profile-Image-->    
+        <div class="home-img">
+            <img src="images/profile.jpg" alt="Profile_Pic">
+        </div>
+    </section>
+
+    
+    <!--ABOUT SECTION-->  
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/profile.jpg" alt="Profile Picture">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Passionate about technology and driven by a relentless curiosity, I am a results-oriented technical engineer with 1.6 years of hands-on experience in the technical engineering field. With a focus on front-end development, I have honed my skills through various projects, demonstrating proficiency in HTML, CSS, JavaScript, and modern frameworks. Possessing effective communication skills, I am dedicated to consistently delivering results and contributing value to any technical team.</p>
+            <a href="#" class="btn"> Read More</a>
+        </div>
+    </section>
+
+    <!--PROJECT SECTION--> 
+
+    <section class="project" id="project">
+        <h1 class="heading"> PROJECTS</h1>
+        <div class="project-img">
+            <div class="flip-container Stopwatch">
+                <div class="flipper">
+                    <div class="front">
+                        <h2>Stopwatch using Html Css & Javascript</h2>
+                        <a href="https://your-hosted-stopwatch-project-link.com" target="_blank">
+                            <img src="images/Stopwatch-in-javascript-768x432.png.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="back">
+                        <h3>About This Project</h3>
+                        <p>This project demonstrates how to create a stopwatch using HTML, CSS, and JavaScript. It includes functionality for starting, stopping, and resetting the stopwatch.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flip-container weather">
+                <div class="flipper">
+                    <div class="front">
+                        <h2>Weather app using Html Css & Javascript</h2>
+                        <a href="https://your-hosted-weather-app-link.com" target="_blank">
+                            <img src="images/maxresdefault (1).jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="back">
+                        <h3>About This Project</h3>
+                        <p>This project showcases a weather application built with HTML, CSS, and JavaScript. It retrieves weather data from an API and displays it in a user-friendly manner.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-img">
+            <div class="flip-container alarm-clock">
+                <div class="flipper">
+                    <div class="front">
+                        <h2>Alarm clock using Html Css & Javascript</h2>
+                        <a href="https://your-hosted-alarm-clock-project-link.com" target="_blank">
+                            <img src="images/maxresdefault.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="back">
+                        <h3>About This Project</h3>
+                        <p>This project features an alarm clock created with HTML, CSS, and JavaScript. It allows users to set alarms and customize alarm tones.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flip-container netflix">
+                <div class="flipper">
+                    <div class="front">
+                        <h2>Netflix clone using Html Css & Javascript</h2>
+                        <a href="https://harkirat05.github.io/Hero-Hunter/" target="_blank">
+                            <img src="images/thumbnail-8-1024x574.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="back">
+                        <h3>About This Project</h3>
+                        <p>This project is a clone of the Netflix website developed using HTML, CSS, and JavaScript. It mimics the layout and functionality of the original Netflix site.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact SECTION--> 
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="11267fae-c69a-44a3-82bb-1143576f85d5">
+            <div class="input-box">
+                <input type="text" id="full-name" name="full-name" placeholder="Full Name" required>
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+            </div>
+
+            <div class="input-box">
+                <input type="tel" id="mobile" name="mobile" placeholder="Mobile Number" required>
+                <input type="text" id="subject" name="subject" placeholder="Email Subject" required>
+            </div>
+
+            <textarea id="message" name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!--Footer SECTION--> 
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Harkirat Singh | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTap">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!--Scroll Reveal-JS-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--Typed-JS-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!--Main-Javscript-->
+    <script src="script.js"></script>
+
+   
+</body>
+</html>
