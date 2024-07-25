@@ -59,7 +59,7 @@ ScrollReveal().reveal('.about-content', { origin: 'right' });
 
 // Typed.js initialization
 const typed = new Typed('.multiple-text', {
-    strings: ['Frontend Developer', 'Web Designer', 'Python Developer', 'AI Machine Learning'],
+    strings: ['Frontend Developer', 'Web Designer'],
     typeSpeed: 70,
     backSpeed: 70,
     backDelay: 1000,
